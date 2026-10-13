@@ -79,7 +79,7 @@ export const MainApp = () => {
             </div>
             {!showInitialPopup &&
                 <a
-                    href="https://apps.srmakes.co.uk"
+                    href="https://srmakes.co.uk"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="fixed-cta-link"

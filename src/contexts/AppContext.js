@@ -7,7 +7,7 @@ export const AppProvider = ({ children }) => {
     const [imageToShowIndex, setImageToShowIndex] = useState(null);
     const [showContactPopup, setShowContactPopup] = useState(false);
 
-    // Only show popup on root path (e.g. apps.srmakes.co.uk or apps.srmakes.co.uk/)
+    // Only show popup on the portfolio home page
     // Hide it if visiting a sub-route like /host-worth
     const [showInitialPopup, setShowInitialPopup] = useState(() => {
         if (typeof window !== 'undefined') {

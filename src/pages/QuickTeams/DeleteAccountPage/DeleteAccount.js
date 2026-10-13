@@ -81,7 +81,7 @@ const QuickTeamsDeleteAccount = () => {
 
                 <div style={styles.emailBox}>
                     <p>
-                        Send an email to <strong>support@yourdomain.com</strong> with the subject line:
+                        Send an email to <strong>samisamadur@gmail.com</strong> with the subject line:
                     </p>
                     <p><em>"Delete My Quick Teams Account"</em></p>
                     <p>

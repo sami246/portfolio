@@ -51,9 +51,9 @@ import SENTuitionImage3 from '../assets/project_images/SEN Tuition 3.png'
 export const ProjectData = [
     {
         id: 'apps-portal',
-        title: 'SRMakes Apps Portal & Validator',
+        title: 'SRMakes',
         technologies: 'React, Supabase, Tailwind CSS, JavaScript, TanStack Query',
-        link: 'https://apps.srmakes.co.uk',
+        link: 'https://srmakes.co.uk',
         startMonth: 'NOV 2024',
         endMonth: 'CURRENT',
         bulletPoints: [
@@ -66,38 +66,38 @@ export const ProjectData = [
         buttonLinks: [
             {
                 title: 'Website',
-                link: 'https://apps.srmakes.co.uk'
+                link: 'https://srmakes.co.uk'
             }
         ],
         media: [
             {
                 type: 'image',
                 src: SRMakesImage1,
-                link: 'https://apps.srmakes.co.uk',
+                link: 'https://srmakes.co.uk',
                 description: 'Project Showcase Dashboard'
             },
             {
                 type: 'image',
                 src: SRMakesImage2,
-                link: 'https://apps.srmakes.co.uk/projects/awda',
+                link: 'https://srmakes.co.uk/projects/awda',
                 description: 'Dynamic Project Hero, Timeline and Problem/Solution Sections'
             },
             {
                 type: 'image',
                 src: SRMakesImage3,
-                link: 'https://apps.srmakes.co.uk/projects/awda',
+                link: 'https://srmakes.co.uk/projects/awda',
                 description: 'Dynamic Project Potential Features List'
             },
             {
                 type: 'image',
                 src: SRMakesImage4,
-                link: 'https://apps.srmakes.co.uk/projects/awda',
+                link: 'https://srmakes.co.uk/projects/awda',
                 description: 'Main wait-list for under-development projects to gather user interest'
             },
             {
                 type: 'image',
                 src: SRMakesImage5,
-                link: 'https://apps.srmakes.co.uk/projects/awda',
+                link: 'https://srmakes.co.uk/projects/awda',
                 description: 'Light Mode Theming with Dynamic Colors'
             },
         ]

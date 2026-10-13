@@ -11,7 +11,7 @@ const InitialModal = ({ isOpen, setIsOpen }) => {
     // Action for the 'Explore' choice: open new site and close modal
     const handleAppChoice = () => {
         // Open the app showcase URL in a new window/tab
-        window.open("https://apps.srmakes.co.uk", "_blank");
+        window.open("https://srmakes.co.uk", "_blank");
         // Close the modal
         setIsOpen(false);
     };
@@ -62,7 +62,7 @@ const InitialModal = ({ isOpen, setIsOpen }) => {
                                 Are you a recruiter looking to hire, or an explorer interested in my live projects and products?
                             </p>
                             <div className="button-group path-selection">
-                                {/* Option 1: Recruiter (Stays on current site: srmakes.co.uk) */}
+                                {/* Option 1: Recruiter (stays on the portfolio) */}
                                 <button
                                     onClick={handleRecruiterChoice}
                                     className="button recruiter-choice"
@@ -71,7 +71,7 @@ const InitialModal = ({ isOpen, setIsOpen }) => {
                                     I'm a Recruiter
                                 </button>
 
-                                {/* Option 2: Explorer (Opens new site: apps.srmakes.co.uk) */}
+                                {/* Option 2: Explorer (opens SRMakes) */}
                                 <button
                                     onClick={handleAppChoice}
                                     className="button user-choice"
