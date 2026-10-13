@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# SRMakes portfolio
+
+The portfolio is hosted at `https://portfolio.srmakes.co.uk`. App project, policy, and account deletion pages live on `https://srmakes.co.uk`; `vercel.json` redirects the old portfolio app URLs there. Keep those redirects for existing links.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
