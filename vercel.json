@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/quick-teams",
+      "destination": "https://srmakes.co.uk/projects/quick-teams",
+      "permanent": true
+    },
+    {
+      "source": "/quick-teams/:path*",
+      "destination": "https://srmakes.co.uk/quick-teams/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/host-worth",
+      "destination": "https://srmakes.co.uk/projects/host-worth",
+      "permanent": true
+    },
+    {
+      "source": "/host-worth/:path*",
+      "destination": "https://srmakes.co.uk/host-worth/:path*",
+      "permanent": true
+    }
+  ]
+}
