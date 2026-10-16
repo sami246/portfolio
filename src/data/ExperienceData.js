@@ -3,22 +3,24 @@ import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
 import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import SimplySENImage1 from '../assets/project_images/SEN Tuition 1.png'
 import VirtualE from '../assets/experience_images/virtuale_sem_logo.jpeg'
-import WaracleMark from '../assets/experience_images/waracle-mark.svg'
+// Official Waracle site mark: https://waracle.com/safari-pinned-tab.svg?v=221122
+import WaracleMark from '../assets/experience_images/waracle-official-mark.svg'
 
 export const ExperienceData = [
     {
         company: 'Waracle',
         position: 'Software Engineer',
-        technologies: 'React Native, TypeScript, Expo, mobile accessibility and performance',
+        technologies: 'React Native, TypeScript, Expo, accessibility and performance',
         link: 'https://waracle.com/',
         startMonth: '2026',
         endMonth: 'CURRENT',
         logoSrc: WaracleMark,
         bulletPoints: [
-            'Delivered five reusable mobile UI capabilities for a financial technology client’s Alpha1 release, including navigation, accessible form controls and empty states. All five were merged before the release milestone.',
-            'Built a seven-field Personal Details flow with validation, offline handling and cache updates. Identified an update contract that could overwrite newer profile data and worked with backend engineers on a changed-fields approach.',
-            'Profiled a 240-article News feed across 18 Android release-emulator runs. Controlled comparisons showed 27% lower median sampled peak memory during loaded scrolling and 15% lower memory during pagination, alongside fewer unnecessary renders and duplicate requests.',
-            'Hardened login failure handling with distinct offline and authentication states, automatic recovery and cancellation-safe paths, backed by focused regression tests and Android device checks.'
+            'Helped a financial technology client complete its Alpha1 mobile milestone, delivering React Native features across navigation, account management and News. Worked from design and API contracts through implementation, review and device validation.',
+            'Built reusable and accessible mobile foundations that support consistent experiences across screens. Five shared UI capabilities were merged for Alpha1, including navigation, form controls and empty states.',
+            'Improved the reliability of core journeys by handling offline and authentication failures, strengthening profile updates, and raising integration risks with backend engineers during development.',
+            'Measured and improved News feed performance. In controlled Android tests with a 240-article feed, median sampled peak memory was 27% lower during scrolling and 15% lower during pagination; also reduced unnecessary renders and overlapping requests.',
+            'Contributed to engineering quality beyond assigned features through detailed peer reviews and a shared pull-request guide approved by eight colleagues.'
         ],
         media: []
     },
@@ -31,16 +33,9 @@ export const ExperienceData = [
         endMonth: 'CURRENT',
         logoSrc: VirtualE,
         bulletPoints: [
-            ` Spearheaded the rapid development of a full-featured admin onboarding system in just one week, collaborating with backend
-            engineers and owning the front-end architecture. Delivered a seamless UX with state management, editable/sortable tables, form
-            handling, and API integration — accelerating customer onboarding by several weeks`,
-            ` Designed and integrated a scalable notification system and Pomodoro timer feature in close coordination with the backend team,
-            resulting in a 24% boost in user engagement through timely feedback loops and productivity tools.`,
-            `Partnered with the product team to transform research insights into intuitive, user-driven features, ensuring product direction
-            remained tightly aligned with both user needs and business objectives`,
-            `Modernised and refactored legacy front-end code, seamlessly integrating new features into the existing system while reducing
-            technical debt. Improved load times by 30% through performance tuning, with a strong emphasis on code quality, maintainability, and
-            scalability`
+            'Owned front-end delivery across onboarding, notifications and productivity features for an early-stage platform, working with backend and product colleagues from requirements through release.',
+            'Built an admin onboarding system that enabled non-technical staff to manage company records and accelerated customer onboarding by several weeks.',
+            'Modernised legacy React code and improved loading performance. Earlier project reporting recorded a 30% load-time improvement and a 24% engagement increase following new features.'
         ],
         media: [
         ]
@@ -54,14 +49,9 @@ export const ExperienceData = [
         endMonth: 'NOV 2023',
         logoSrc: 'https://cdn.dribbble.com/userupload/22808646/file/original-cd940b45bbed325d172547e4181e59b2.jpg',
         bulletPoints: [
-            `Industries: Car rentals, education platforms, mobile applications, e-commerce.`,
-            `Developed and maintained projects end-to-end, from initial planning and design to deployment and post-launch support.`,
-            `Built responsive, accessible, and user-friendly interfaces, ensuring seamless experiences across multiple devices`,
-            `Applied best coding practices such as DRY, SOLID, and modular component-based architecture for maintainable and scalable
-             codebases. Ensured high performance and optimised applications for speed, SEO, and accessibility.`,
-            `Integrated third-party services and APIs, including authentication (OAuth, Clerk), real-time databases (Relational & NoSQL), and
-             analytics tools.`,
-            `Some non-exhaustive examples are below, and some of these project have further information in the projects section below.`
+            'Delivered web and mobile products for clients in car rental, education and retail, taking work from discovery and design through deployment and ongoing support.',
+            'Built responsive interfaces and integrated services for authentication, data and analytics, with attention to accessibility, search visibility and maintainable code.',
+            'Completed a Wix-to-Shopify store migration within two weeks while preserving existing orders and service continuity.'
         ],
         buttonLinks: [
             {
@@ -115,11 +105,8 @@ export const ExperienceData = [
         endMonth: 'NOV 2022',
         logoSrc: 'https://media.licdn.com/dms/image/C4E0BAQH-cJHNTuBj_g/company-logo_200_200/0/1630645848269/threepipe_logo?e=2147483647&v=beta&t=CguO2xvyHPTxNAi6hwVW4sduS4P8ZHMXL6CDWLzywtE',
         bulletPoints: [
-            `Spearheaded the development of a dynamic Alteryx/Python/SQL automation leveraging data source APIs, resulting in a 60%
-            increase in productivity for the SEO team, alongside collaboration with many other internal teams for their automations`,
-            ` Leveraged Python and Pandas for efficient data manipulation and analysis, ensuring accurate insights extraction. Developed a
-            comprehensive tool for analysing marketing trends and identifying AD units, streamlining data collection and storage into a
-            centralised spreadsheet from sources such as TikTok, Snapchat and Facebook.`
+            'Automated data validation for the SEO team with Python, SQL, Alteryx and source APIs, reducing recurring manual checks from hours to minutes. Earlier team reporting estimated a 60% productivity improvement.',
+            'Consolidated marketing data from multiple platforms into clearer analysis and reporting tools, while supporting automation work across other teams.'
         ],
         media: [
         ]

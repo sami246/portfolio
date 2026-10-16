@@ -11,6 +11,24 @@
     overflow: hidden;
 }
 
+.waracleLogoBox {
+    background: #fff;
+    padding: 6px;
+}
+
+.waracleLogoBox img {
+    object-fit: contain;
+}
+
+.experienceText .custom-list {
+    font-size: clamp(15px, 1.5vw, 17px);
+    line-height: 1.5;
+}
+
+.experienceText .custom-list li + li {
+    margin-top: 0.55em;
+}
+
 .title-text span {
     color: var(--color-info-lighter);
     font-size: clamp(15px, 2.2vw, 19px);

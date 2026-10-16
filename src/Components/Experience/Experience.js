@@ -10,12 +10,12 @@ export const Experience = () => {
         <Slide direction='right' duration={2700} triggerOnce>
             <div id='boxContainer'>
                 <header className='boxHeading'>Technical Experience</header>
-                <div className='boxText'>
+                <div className='boxText experienceText'>
                     {ExperienceData.map((item, index) =>
                         <div key={item.company}>
                             <div className='ExperienceHeader'>
                                 <div className='logo-and-title'>
-                                    <a className='logoBox' href={item.link} target="_blank" rel="noreferrer">
+                                    <a className={item.company === 'Waracle' ? 'logoBox waracleLogoBox' : 'logoBox'} href={item.link} target="_blank" rel="noreferrer">
                                         <div className='img_description'>{item.company}</div>
                                         <img src={item.logoSrc} alt={`${item.company} visual mark`} width='100%' height='100%' />
                                     </a>
