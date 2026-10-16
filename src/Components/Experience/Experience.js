@@ -15,7 +15,7 @@ export const Experience = () => {
                         <div key={item.company}>
                             <div className='ExperienceHeader'>
                                 <div className='logo-and-title'>
-                                    <a className={item.company === 'Waracle' ? 'logoBox waracleLogoBox' : 'logoBox'} href={item.link} target="_blank" rel="noreferrer">
+                                    <a className={`logoBox${item.company === 'Waracle' ? ' waracleLogoBox' : ''}${item.company === 'Threepipe Reply' ? ' threepipeLogoBox' : ''}`} href={item.link} target="_blank" rel="noreferrer">
                                         <div className='img_description'>{item.company}</div>
                                         <img src={item.logoSrc} alt={`${item.company} visual mark`} width='100%' height='100%' />
                                     </a>

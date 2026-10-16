@@ -3,6 +3,8 @@ import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
 import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import SimplySENImage1 from '../assets/project_images/SEN Tuition 1.png'
 import VirtualE from '../assets/experience_images/virtuale_sem_logo.jpeg'
+// Current Threepipe Reply site logo: https://threepipereply.com/
+import ThreepipeReplyLogo from '../assets/experience_images/threepipe-reply-official.svg'
 // Official Waracle site mark: https://waracle.com/safari-pinned-tab.svg?v=221122
 import WaracleMark from '../assets/experience_images/waracle-official-mark.svg'
 
@@ -33,9 +35,10 @@ export const ExperienceData = [
         endMonth: 'CURRENT',
         logoSrc: VirtualE,
         bulletPoints: [
-            'Owned front-end delivery across onboarding, notifications and productivity features for an early-stage platform, working with backend and product colleagues from requirements through release.',
-            'Built an admin onboarding system that enabled non-technical staff to manage company records and accelerated customer onboarding by several weeks.',
-            'Modernised legacy React code and improved loading performance. Earlier project reporting recorded a 30% load-time improvement and a 24% engagement increase following new features.'
+            'Led the front-end development of a full admin onboarding system in one week, collaborating with backend engineers and owning the interface architecture. Built state management, editable and sortable tables, forms and API integration, giving non-technical staff a way to manage company records and accelerating customer onboarding by several weeks.',
+            'Designed and integrated a notification system and Pomodoro timer with the backend team, creating timely feedback and productivity tools. Project reporting recorded a 24% increase in user engagement following these features.',
+            'Worked with product colleagues to turn user research and business requirements into intuitive features, keeping product decisions aligned with what customers needed.',
+            'Modernised and refactored legacy React code while integrating new features into the existing platform. Improved maintainability and scalability through reusable components and performance tuning; earlier project reporting recorded a 30% improvement in load times.'
         ],
         media: [
         ]
@@ -49,9 +52,11 @@ export const ExperienceData = [
         endMonth: 'NOV 2023',
         logoSrc: 'https://cdn.dribbble.com/userupload/22808646/file/original-cd940b45bbed325d172547e4181e59b2.jpg',
         bulletPoints: [
-            'Delivered web and mobile products for clients in car rental, education and retail, taking work from discovery and design through deployment and ongoing support.',
-            'Built responsive interfaces and integrated services for authentication, data and analytics, with attention to accessibility, search visibility and maintainable code.',
-            'Completed a Wix-to-Shopify store migration within two weeks while preserving existing orders and service continuity.'
+            'Delivered client projects across car rental, education platforms, mobile applications and ecommerce, taking them from initial planning and design through deployment and post-launch support.',
+            'Built responsive, accessible and user-friendly interfaces across devices, with attention to speed, search visibility and a consistent experience.',
+            'Applied modular, component-based architecture and maintainable coding practices to keep projects scalable. Integrated third-party services and APIs including OAuth and Clerk authentication, relational and NoSQL databases, and analytics tools.',
+            'Completed a Wix-to-Shopify store migration within two weeks while preserving existing orders and service continuity.',
+            'Examples of this client work include Simply SEN, Royz Rental and Atiyyah; several have more detail in the projects section below.'
         ],
         buttonLinks: [
             {
@@ -103,10 +108,10 @@ export const ExperienceData = [
         link: 'https://threepipereply.com/',
         startMonth: 'OCT 2021',
         endMonth: 'NOV 2022',
-        logoSrc: 'https://media.licdn.com/dms/image/C4E0BAQH-cJHNTuBj_g/company-logo_200_200/0/1630645848269/threepipe_logo?e=2147483647&v=beta&t=CguO2xvyHPTxNAi6hwVW4sduS4P8ZHMXL6CDWLzywtE',
+        logoSrc: ThreepipeReplyLogo,
         bulletPoints: [
-            'Automated data validation for the SEO team with Python, SQL, Alteryx and source APIs, reducing recurring manual checks from hours to minutes. Earlier team reporting estimated a 60% productivity improvement.',
-            'Consolidated marketing data from multiple platforms into clearer analysis and reporting tools, while supporting automation work across other teams.'
+            'Built an Alteryx, Python and SQL automation using source APIs to validate SEO data, cutting recurring manual checks from hours to minutes. Earlier team reporting estimated a 60% productivity improvement, and the approach supported automation work with other internal teams.',
+            'Used Python and Pandas to collect, transform and analyse marketing data. Built a reporting tool that identified advertising units and trends, consolidating data from TikTok, Snapchat and Facebook into a central spreadsheet.'
         ],
         media: [
         ]

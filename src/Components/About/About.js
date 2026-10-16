@@ -13,12 +13,12 @@ export const About = () => {
                         Hi there 👋
                         <br></br>
                         <br></br>
-                        I'm Sami, a software engineer building mobile and web products with React Native, React and TypeScript. At Waracle I work on a financial technology mobile app, and through SRMakes I build and release my own products, including Quick Teams and Foodii.
+                        I'm Sami, a Computer Science graduate from Queen Mary University of London and a software engineer who enjoys building useful products from idea to release. My experience spans mobile apps, web platforms and data automation: I started at Threepipe Reply, built websites and commerce projects for clients, and developed product features at VirtualE. Today, I work on a financial technology mobile app at Waracle and build my own products through SRMakes, including Quick Teams and Foodii.
                         <br></br>
                         <ul className='custom-list'>
-                            <li><HighlightText text={"🔭 I work across mobile UI, account flows, reliability and performance, and I enjoy taking a feature from design through release."} /></li>
-                            <li><HighlightText text={"🌱 I use AI coding tools and MCP integrations to explore and review work, while validating changes with tests and real-device checks."} /></li>
-                            <li><HighlightText text={"💼 My independent apps and current projects are on SRMakes."} /></li>
+                            <li><HighlightText text={"🔭 I work across React Native, React and TypeScript, from accessible interfaces and account journeys to performance, testing and release."} /></li>
+                            <li><HighlightText text={"🌱 I keep learning and experimenting, including with AI coding tools and MCP integrations, while checking the results through review, tests and real-device use."} /></li>
+                            <li><HighlightText text={"💼 You can explore my independent apps and current projects on SRMakes. I'm also open to opportunities to build thoughtful products with a great team."} /></li>
                             <li><HighlightText text={"💬 Ask me about all of my many many hobbies, from running my own Youtube channels on my weekly football sessions, anime, manga, long walks, traveling, food, and the list goes on!"} /></li>
                             <li><HighlightText text={"📫 How to reach me: Best way would be through my email - samisamadur@gmail.com"} /></li>
                             <li><HighlightText text={"⚡ Fun fact: I have amassed over 23 million views on Youtube ⭐"} /></li>

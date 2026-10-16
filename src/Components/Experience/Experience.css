@@ -12,11 +12,21 @@
 }
 
 .waracleLogoBox {
-    background: #fff;
-    padding: 6px;
+    background: #111;
+    padding: 10px;
 }
 
 .waracleLogoBox img {
+    object-fit: contain;
+    filter: invert(1);
+}
+
+.threepipeLogoBox {
+    background: #fff;
+    padding: 5px;
+}
+
+.threepipeLogoBox img {
     object-fit: contain;
 }
 
