@@ -16,6 +16,14 @@
     padding: 0;
 }
 
+.skillTextIcon {
+    color: var(--primary-color);
+    font-family: var(--font-secondary);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-align: center;
+}
+
 /* Primary Skills Box - LARGER DESKTOP SIZE */
 .skillsBox {
     width: 50px;

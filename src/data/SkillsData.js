@@ -35,12 +35,12 @@ import sentryImage from '../assets/logos/sentry.png'
 export const main_skills = [
     {
         logo: typescriptImage,
-        description: 'TypeScript JS',
+        description: 'TypeScript',
         color: 'blue'
     },
     {
         logo: javascriptImage,
-        description: 'Javascript JS',
+        description: 'JavaScript',
         color: 'yellow'
     },
     {
@@ -65,7 +65,7 @@ export const main_skills = [
     },
     {
         logo: reactImage,
-        description: 'React JS',
+        description: 'React',
         color: 'blue'
     },
 
@@ -91,7 +91,7 @@ export const secondary_skills = [
     },
     {
         logo: iosImage,
-        description: 'Apple Connect Store'
+        description: 'App Store Connect'
     },
     {
         logo: googlePlayImage,
@@ -103,7 +103,7 @@ export const secondary_skills = [
     },
     {
         logo: gitHubImage,
-        description: 'Github'
+        description: 'GitHub'
     },
     {
         logo: tailwindImage,
@@ -112,7 +112,7 @@ export const secondary_skills = [
     },
     {
         logo: mysqlImage,
-        description: 'mySQL'
+        description: 'MySQL'
     },
     {
         logo: youtubeImage,
@@ -133,7 +133,7 @@ export const secondary_skills = [
     },
     {
         logo: xcodeImage,
-        description: 'xCode'
+        description: 'Xcode'
     },
     {
         logo: unityImage,
@@ -157,7 +157,7 @@ export const secondary_skills = [
     },
     {
         logo: nodejsImage,
-        description: 'Node JS'
+        description: 'Node.js'
     },
     {
         logo: figmaImage,
@@ -170,5 +170,13 @@ export const secondary_skills = [
     {
         logo: amplitudeImage,
         description: 'Amplitude'
+    },
+    {
+        shortLabel: 'AI',
+        description: 'AI-assisted development and code review'
+    },
+    {
+        shortLabel: 'MCP',
+        description: 'Model Context Protocol tools'
     }
 ]

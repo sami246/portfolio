@@ -17,7 +17,7 @@ export const Experience = () => {
                                 <div className='logo-and-title'>
                                     <a className='logoBox' href={item.link} target="_blank" rel="noreferrer">
                                         <div className='img_description'>{item.company}</div>
-                                        <img src={item.logoSrc} alt={`${item.company} Logo`} width='100%' height='100%' />
+                                        <img src={item.logoSrc} alt={`${item.company} visual mark`} width='100%' height='100%' />
                                     </a>
                                     <div style={{ gap: 10 }}>
                                         <div className='title-text'>

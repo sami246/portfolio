@@ -3,8 +3,25 @@ import Atiyyah1 from '../assets/experience_images/Atiyyah 1.png'
 import RoyzImage1 from '../assets/project_images/Royz Rental 1.png'
 import SimplySENImage1 from '../assets/project_images/SEN Tuition 1.png'
 import VirtualE from '../assets/experience_images/virtuale_sem_logo.jpeg'
+import WaracleMark from '../assets/experience_images/waracle-mark.svg'
 
 export const ExperienceData = [
+    {
+        company: 'Waracle',
+        position: 'Software Engineer',
+        technologies: 'React Native, TypeScript, Expo, mobile accessibility and performance',
+        link: 'https://waracle.com/',
+        startMonth: '2026',
+        endMonth: 'CURRENT',
+        logoSrc: WaracleMark,
+        bulletPoints: [
+            'Delivered five reusable mobile UI capabilities for a financial technology client’s Alpha1 release, including navigation, accessible form controls and empty states. All five were merged before the release milestone.',
+            'Built a seven-field Personal Details flow with validation, offline handling and cache updates. Identified an update contract that could overwrite newer profile data and worked with backend engineers on a changed-fields approach.',
+            'Profiled a 240-article News feed across 18 Android release-emulator runs. Controlled comparisons showed 27% lower median sampled peak memory during loaded scrolling and 15% lower memory during pagination, alongside fewer unnecessary renders and duplicate requests.',
+            'Hardened login failure handling with distinct offline and authentication states, automatic recovery and cancellation-safe paths, backed by focused regression tests and Android device checks.'
+        ],
+        media: []
+    },
     {
         company: 'VirtualE',
         position: 'Frontend Developer',

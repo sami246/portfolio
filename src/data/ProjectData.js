@@ -52,16 +52,15 @@ export const ProjectData = [
     {
         id: 'apps-portal',
         title: 'SRMakes',
-        technologies: 'React, Supabase, Tailwind CSS, JavaScript, TanStack Query',
+        technologies: 'React, Supabase, PostgreSQL, Tailwind CSS, TanStack Query',
         link: 'https://srmakes.co.uk',
         startMonth: 'NOV 2024',
         endMonth: 'CURRENT',
         bulletPoints: [
-            'Architected a "Startup Validator" platform designed to test market viability for new concepts (MVPs) alongside live apps. The system captures user interest via wait-lists to validate product ideas before full development.',
-            'Engineered a Server-Driven UI architecture: The entire landing page layout (Hero, Features, Problem/Solution) is stored as structured JSONB in Supabase. This allows the frontend to dynamically render different component stacks for each project without code changes.',
-            'Optimized Data Layer: Implemented TanStack Query (React Query) for aggressive caching and optimistic UI updates, ensuring instant feedback when users sign up or vote on features, minimizing database costs.',
-            'Advanced Backend Logic: utilized Supabase RPCs (Remote Procedure Calls) to handle atomic transactions for wait-list logic and secure row-level security (RLS) policies to protect user data.',
-            'Dynamic Theming Engine: Solved complex styling challenges using a Tailwind "Safelist" strategy to inject project-specific color identities (primary/secondary themes) at runtime, giving every concept its own unique brand feel.'
+            'Built the main SRMakes home for released apps and upcoming products, with project pages, waitlists, feature feedback and the policy links needed by app stores.',
+            'Store project page content as structured data in Supabase so the same React components can present different products without duplicating a page for each one.',
+            'Use TanStack Query for cached reads and responsive feedback; Supabase functions and row-level security protect waitlist and voting data.',
+            'Apply project-specific colours and content within a shared component system, keeping new product pages consistent and quick to maintain.'
         ],
         buttonLinks: [
             {
@@ -106,17 +105,14 @@ export const ProjectData = [
         id: 'quick-teams',
         title: 'Quick Teams',
         technologies: 'React Native, Expo, TypeScript, Supabase, Amplitude, Sentry',
-        link: null,
+        link: 'https://srmakes.co.uk/projects/quick-teams',
         startMonth: 'NOV 2024',
-        endMonth: 'JAN 2025',
+        endMonth: 'CURRENT',
         bulletPoints: [
-            "Developed a highly efficient, custom algorithm to generate fair, skill-balanced teams instantly from dynamic player inputs.",
-            "Utilized Supabase as the cloud backend for scalable data persistence, mainly for version control & keeping users with up to date versions, with idea to implement online data in the future",
-            "Integrated Sentry for real-time error tracking and crash monitoring, ensuring high application stability and rapid response to production issues.",
-            "Implemented Amplitude analytics to measure key user journeys and feature adoption, enabling data-driven decisions for future product development.",
-            "Managed the full build and release cycle using Expo EAS, including continuous deployment and seamless over-the-air (OTA) updates.",
-            "Enforced application integrity and maintainability using TypeScript across the entire codebase.",
-            "Used the newer version of Expo Route-based Navigation which is the new industry standard"
+            'Built and released a cross-platform team generator for iOS and Android. Players can create balanced teams from flexible player and skill inputs.',
+            'Use TypeScript and Expo Router to keep the app maintainable across platforms, with Supabase for app data and shared configuration.',
+            'Added Sentry error reporting and consent-aware Amplitude analytics to diagnose failures and understand how people use the app.',
+            'Manage store builds and compatible over-the-air updates with Expo EAS, including production updates after release.'
         ],
         buttonLinks: [
             {
@@ -189,19 +185,15 @@ export const ProjectData = [
         id: 'foodii',
         title: 'Foodii',
         position: 'Lead Developer',
-        technologies: 'React Native, Expo, Supabase',
+        technologies: 'React Native, Expo, React, Supabase',
         link: 'https://www.foodii.co.uk',
         startMonth: 'SEP 2022',
         endMonth: 'FEB 2023',
         logoSrc: foodiLogo,
         bulletPoints: [
-            `Developed a mobile application/website from the ground up in just five months using React, React Native and Firebase/Supabase.
-            As a solo developer, I am responsible for all aspects of the project, including front-end design, back-end development, testing,
-            architecture and more.`,
-            `The app continues to evolve and grow, providing ongoing opportunities for learning and improvement.
-            Through this project, I gained valuable experience with hooks, APIs, npm packages, IOS/Android and other key technologies while
-            honing my design and user experience skills.`,
-            `App currently on hold due to other commitments but will be continued in the future.`
+            'Built the restaurant companion app and website across React Native, Expo, React and Supabase, owning mobile UI, backend integration, architecture and releases.',
+            'Shipped iOS and Android store builds and maintained the shared app and website experience through subsequent updates.',
+            'The product is currently paused while other SRMakes products take priority.'
         ],
         buttonLinks: [
             {

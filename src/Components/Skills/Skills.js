@@ -7,16 +7,16 @@ import { useIsStackedLayout } from '../../hooks/useIsStackedLayout';
 // Refined SkillItem component
 const SkillItem = ({ item, sizeClass }) => (
     // The main box receives the size, padding, and hover style via sizeClass
-    <div className={sizeClass}>
+    <div className={sizeClass} title={item.description} aria-label={item.description}>
 
         {/* REVISION: Removed the incorrect inline 'style' property for padding. 
            The padding is now correctly defined in Skills.css on the parent div. */}
-        <img
+        {item.logo ? <img
             src={item.logo}
             alt={item.description}
             width='100%'
             height='100%'
-        />
+        /> : <span className='skillTextIcon'>{item.shortLabel}</span>}
 
         {/* The description is positioned absolutely relative to the parent box */}
         <div className='img_description'>

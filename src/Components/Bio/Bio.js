@@ -1,5 +1,5 @@
 import './Bio.css'
-import pdf from '../../assets/Sami Rahman 2025 CV.pdf'
+import pdf from '../../assets/Sami Rahman 2027 CV.pdf'
 import { IntroSpinner } from '../SmallComponents/IntroSpinner/IntroSpinner';
 import { Slide } from 'react-awesome-reveal';
 import { FaDownload, FaUser, FaGithub } from 'react-icons/fa';
@@ -23,7 +23,7 @@ export const Bio = () => {
                     // Setting various property values
                     let alink = document.createElement('a');
                     alink.href = fileURL;
-                    alink.download = 'Sami Rahman CV.pdf';
+                    alink.download = 'Sami Rahman 2027 CV.pdf';
                     alink.click();
                 });
             });
