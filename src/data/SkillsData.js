@@ -30,6 +30,7 @@ import typescriptImage from '../assets/logos/typescript.webp'
 import tailwindImage from '../assets/logos/tailwind-css.png'
 import amplitudeImage from '../assets/logos/amplitude.png'
 import sentryImage from '../assets/logos/sentry.png'
+import codexImage from '../assets/logos/codex.svg'
 
 
 export const main_skills = [
@@ -67,6 +68,10 @@ export const main_skills = [
         logo: reactImage,
         description: 'React',
         color: 'blue'
+    },
+    {
+        logo: codexImage,
+        description: 'AI-assisted development and code review with Codex'
     },
 
 ]
@@ -170,10 +175,6 @@ export const secondary_skills = [
     {
         logo: amplitudeImage,
         description: 'Amplitude'
-    },
-    {
-        shortLabel: 'AI',
-        description: 'AI-assisted development and code review'
     },
     {
         shortLabel: 'MCP',
