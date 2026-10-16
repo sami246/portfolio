@@ -14,13 +14,13 @@ export const ExperienceData = [
         position: 'Software Engineer',
         technologies: 'React Native, TypeScript, Expo, accessibility and performance',
         link: 'https://waracle.com/',
-        startMonth: '2026',
+        startMonth: 'AUG 2026',
         endMonth: 'CURRENT',
         logoSrc: WaracleMark,
         bulletPoints: [
-            'Helped a financial technology client complete its Alpha1 mobile milestone, delivering React Native features across navigation, account management and News. Worked from design and API contracts through implementation, review and device validation.',
+            'At Waracle, a digital product agency, help deliver a React Native app for a financial services client. Work iteratively with designers, product colleagues and backend engineers, using Figma designs and API contracts to shape, build and refine navigation, account management and News features for the Alpha1 milestone.',
             'Built reusable and accessible mobile foundations that support consistent experiences across screens. Five shared UI capabilities were merged for Alpha1, including navigation, form controls and empty states.',
-            'Improved the reliability of core journeys by handling offline and authentication failures, strengthening profile updates, and raising integration risks with backend engineers during development.',
+            'Improved the reliability of core journeys by handling offline and authentication failures and strengthening profile updates. Used Proxyman to inspect mobile network traffic and investigate API behaviour with backend engineers during development.',
             'Measured and improved News feed performance. In controlled Android tests with a 240-article feed, median sampled peak memory was 27% lower during scrolling and 15% lower during pagination; also reduced unnecessary renders and overlapping requests.',
             'Contributed to engineering quality beyond assigned features through detailed peer reviews and a shared pull-request guide approved by eight colleagues.'
         ],
@@ -32,13 +32,13 @@ export const ExperienceData = [
         technologies: 'React JS, Tailwind CSS, MongoDB',
         link: 'https://www.linkedin.com/company/virtuale-sem/',
         startMonth: 'NOV 2023',
-        endMonth: 'CURRENT',
+        endMonth: 'AUG 2026',
         logoSrc: VirtualE,
         bulletPoints: [
             'Led the front-end development of a full admin onboarding system in one week, collaborating with backend engineers and owning the interface architecture. Built state management, editable and sortable tables, forms and API integration, giving non-technical staff a way to manage company records and accelerating customer onboarding by several weeks.',
-            'Designed and integrated a notification system and Pomodoro timer with the backend team, creating timely feedback and productivity tools. Project reporting recorded a 24% increase in user engagement following these features.',
+            'Designed and integrated a notification system and Pomodoro timer with the backend team, creating timely feedback and productivity tools that increased user engagement by 24%.',
             'Worked with product colleagues to turn user research and business requirements into intuitive features, keeping product decisions aligned with what customers needed.',
-            'Modernised and refactored legacy React code while integrating new features into the existing platform. Improved maintainability and scalability through reusable components and performance tuning; earlier project reporting recorded a 30% improvement in load times.'
+            'Modernised and refactored legacy React code while integrating new features into the existing platform. Improved maintainability and scalability through reusable components and performance tuning, cutting load times by 30%.'
         ],
         media: [
         ]
@@ -110,7 +110,7 @@ export const ExperienceData = [
         endMonth: 'NOV 2022',
         logoSrc: ThreepipeReplyLogo,
         bulletPoints: [
-            'Built an Alteryx, Python and SQL automation using source APIs to validate SEO data, cutting recurring manual checks from hours to minutes. Earlier team reporting estimated a 60% productivity improvement, and the approach supported automation work with other internal teams.',
+            'Built an Alteryx, Python and SQL automation using source APIs to validate SEO data, cutting recurring manual checks from hours to minutes and improving SEO team productivity by 60%. The approach also supported automation work with other internal teams.',
             'Used Python and Pandas to collect, transform and analyse marketing data. Built a reporting tool that identified advertising units and trends, consolidating data from TikTok, Snapchat and Facebook into a central spreadsheet.'
         ],
         media: [

@@ -13,7 +13,7 @@ export const About = () => {
                         Hi there 👋
                         <br></br>
                         <br></br>
-                        I'm Sami, a Computer Science graduate from Queen Mary University of London and a software engineer who enjoys building useful products from idea to release. My experience spans mobile apps, web platforms and data automation: I started at Threepipe Reply, built websites and commerce projects for clients, and developed product features at VirtualE. Today, I work on a financial technology mobile app at Waracle and build my own products through SRMakes, including Quick Teams and Foodii.
+                        I'm Sami, a Computer Science graduate from Queen Mary University of London and a software engineer who enjoys building useful products from idea to release. My experience spans mobile apps, web platforms and data automation: I started at Threepipe Reply, built websites and commerce projects for clients, and developed product features at VirtualE. Today, I work at Waracle, a digital product agency, building a mobile app for a financial services client, and develop my own products through SRMakes, including Quick Teams and Foodii.
                         <br></br>
                         <ul className='custom-list'>
                             <li><HighlightText text={"🔭 I work across React Native, React and TypeScript, from accessible interfaces and account journeys to performance, testing and release."} /></li>
